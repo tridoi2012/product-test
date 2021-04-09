@@ -1,0 +1,20 @@
+.header{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 22px 30px;
+}
+.menu-top{
+    justify-content: space-between;
+}
+
+.menu-button{
+    flex: 1;
+}
+.nav-bar{
+    flex: 2;
+}
+.nav-menus{
+    justify-content: space-between;
+}
+.nav-menus-items{
+    list-style-type: none;
+}

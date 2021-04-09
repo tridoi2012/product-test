@@ -1,0 +1,35 @@
+html{
+  font-size: 10px;
+}
+
+html,
+body{
+  height: 100%;
+}
+
+*, ::before , ::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+a{
+  text-decoration: none;
+}
+
+a,a:hover{
+  transition: all 0.4s ease-in-out;
+}
+.flex{
+  display: flex;
+}
+.between{
+  justify-content: space-between;
+}
