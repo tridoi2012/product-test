@@ -33,3 +33,43 @@ a,a:hover{
 .between{
   justify-content: space-between;
 }
+.block{
+  display: block;
+}
+
+/* responsive */
+@media only screen and (max-width: 694px) {
+  .menu-button {
+    display: none;
+  }
+  .nav-menus-items {
+    margin: 0 auto!important;
+  }
+  .res-page-title{
+    flex-direction: column;
+  }
+  .res-page-title .title{
+    margin-bottom: 10px;
+  }
+  .breadcrumb {
+    justify-content: right;
+  }
+  .feature-product{
+    display: none;
+  }
+  .form-filter{
+    width: 100%!important;
+  }
+  .products {
+    justify-content: center!important;
+}
+}
+
+@media only screen and (max-width: 1011px) and (min-width: 694px){
+  .feature-product{
+    display: none;
+  }
+  .products {
+    justify-content: space-around!important;
+}
+}
